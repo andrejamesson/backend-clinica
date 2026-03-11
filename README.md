@@ -1,5 +1,7 @@
 ﻿# backend-clinica
 
+ https://fresh-hellebore-b85.notion.site/Sistema-completo-pra-cl-nica-do-zero-usando-IA-Codex-chatGpt-AO-VIVO-31f07a1c67dc8077bf39e6583388086a?pvs=73
+
 API backend em Node.js com PostgreSQL (Prisma) e autenticacao JWT + refresh token.
 
 ## Estrutura
