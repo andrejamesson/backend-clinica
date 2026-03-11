@@ -25,7 +25,13 @@ API backend em Node.js com PostgreSQL (Prisma) e autenticacao JWT + refresh toke
 npm install
 ```
 
-2. Configure o banco no `.env`:
+2. Crie o `.env` com base no exemplo:
+
+```bash
+cp .env.example .env
+```
+
+3. Configure o banco no `.env`:
 
 ```env
 DATABASE_URL="postgresql://usuario:senha@host:5432/backend_clinica?schema=public"
@@ -38,13 +44,13 @@ DEFAULT_USER_EMAIL="admin@clinica.com"
 DEFAULT_USER_PASSWORD="123456"
 ```
 
-3. Rode as migracoes:
+4. Rode as migracoes:
 
 ```bash
 npx prisma migrate dev --name init
 ```
 
-4. Suba a aplicacao:
+5. Suba a aplicacao:
 
 ```bash
 npm start
